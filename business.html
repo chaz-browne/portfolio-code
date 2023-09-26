@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <title>Chaz Browne's Closet</title>
+    <link rel="stylesheet" href ="shop-style.css">
+    <script src="https://kit.fontawesome.com/a4925e7b91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!---make sure to put an image here-->
+            <ul>
+                <li><a href="#header"><button>HOME</button></a></li>
+                <li><a href="#tops"><button>TOPS</button></a></li>
+                <li><a href="#bottoms"><button>BOTTOMS</button></a></li>
+                <li><a href="#shoes"><button>SHOES</button></a></li>
+                <li><a href="#accessories"><button>CONTACT</button></a></li>
+                <li><a href="#about"><button>ABOUT</button></a></li>
+            </ul>
+        </nav>
+      <div class="intro-text">
+        <p><strong><span>welcome to my digital closet.</span><strong></p>
+        <h1>maybe there's something here for <br><span id="typewriter"></span>
+            <span id="cursor">|</span>
+        </h1>    
+      </div>
+    </div>
+    <div class="waves">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+</div>
+<!----tops-->
+<div id="tops">
+    <div class="container">
+        <h1 class="sub-title">TOPS</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="thrift-page/hoodie.jpeg">
+                <div class="layer">
+                    <h2><strong>Doc Martens</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/hoodie.jpeg">
+                <div class="layer">
+                    <h2><strong>Black OZWEEGO's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/hoodie.jpeg">
+                <div class="layer">
+                    <h2><strong>New Balance 550's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/hoodie.jpeg">
+                <div class="layer">
+                    <h2><strong>Adidas Yung One's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        <script src="./main.js"></script>
+    </div>
+</div>
+
+<!-----shoes-->
+<div id="shoes">
+    <div class="container">
+        <h1 class="sub-title">SHOES</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="thrift-page/docs.JPG">
+                <div class="layer">
+                    <h2><strong>Doc Martens</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/ozweego.JPG">
+                <div class="layer">
+                    <h2><strong>Black OZWEEGO's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/newbies.JPG">
+                <div class="layer">
+                    <h2><strong>New Balance 550's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="thrift-page/yungones.JPG">
+                <div class="layer">
+                    <h2><strong>Adidas Yung One's</strong></h2>
+                    <p>$30</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        <script src="./main.js"></script>
+    </div>
+</div>
+<!----------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class ="about-col-1">
+                <img src ="thrift-page/verticalbackground2.JPG" alt="">
+                </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">What's this all for?</h1>
+
+               <div class ="tab-titles">
+                    <p class ="tab-links active-link " onclick="opentab('mission')">The Mission</p>
+                    <p class="tab-links" onclick="opentab('help')">How Can I Help?</p>
+                    <p class ="tab-links" onclick="opentab('learn')">Learn More</p>
+               </div>
+               <div class ="tab-contents active-tab" id="mission">
+                    <ul>
+                        <li><span><strong>Why not?</strong></span><br>Growing up, fashion and how to manuever it was a little confusing for me. I didn't know where to get things and if I did, they weren't the most afforable.
+                            In a sense, I was stuck. So I made this little page so that nobody would get lost like me again. Something to help everyone.
+                            My main goal is to reach out to others and share cool clothes for an affordable price. I'm always finding cool things to wear...</li>
+                    </ul>
+               </div>
+               <div class="tab-contents" id="help">
+                <ul>
+                    <li><span> - <strong> Recommendations<br></strong></span>Tell me some things that you'd like see on here!<br>I'm always open to creative criticism... I'd love to see this business improve.</li>
+                    <li><span> - <strong> Send Stuff In</strong><br></span>Reach out to me through the contact information on the page<br>We may be able to come a trade/deal!</li>
+                </ul>
+               </div>
+               <div class="tab-contents" id="learn">
+                <ul>
+                    <li>If you have any further business inquiries or questions about what I do or what this is all about, hit me up!</li>
+                </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function sleep(ms) {
+        return new Promise((resolve, reject) => setTimeout(resolve, ms));
+    }
+    const phrases = ["cheap.", "everyone.", "you."];
+    const el = document.getElementById("typewriter");
+
+    let sleepTime = 100;
+    
+    let curPhraseIndex = 0;
+
+    const writeLoop = async () => {
+        while (true){
+            let curWord = phrases[curPhraseIndex];
+
+            for (let i = 0; i < curWord.length; i++){
+                el.innerText = curWord.substring(0, i + 1);
+                await sleep(sleepTime);
+            }
+            await sleep(sleepTime * 10);
+
+            for (let i = curWord.length; i > 0; i--){
+                el.innerText = curWord.substring(0, i - 1);
+                await sleep(sleepTime);
+            }
+            
+            await sleep(sleepTime * 5);
+        
+            if (curPhraseIndex === phrases.length - 1 ){
+                curPhraseIndex = 0;
+            } else {
+                curPhraseIndex++;
+            }
+
+
+
+        }
+    };
+
+    writeLoop();
+</script>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</body>
+</html>
